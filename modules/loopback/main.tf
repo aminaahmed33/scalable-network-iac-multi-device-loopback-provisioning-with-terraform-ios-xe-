@@ -16,7 +16,7 @@ resource "iosxe_interface_loopback" "loopback" {
     ipv4_address_mask = "255.255.255.0"
   
 }
-locals {
-  lb_map = {for n in var.loopback_nums: tostring(n) => n}
+#locals {
+ # lb_map = {for n in var.loopback_nums: tostring(n) => n}
 
-}
+#}
