@@ -20,7 +20,7 @@ The solution uses a **modular and data-driven design** to dynamically configure:
 
 ---
 
-## 🔹 Topology
+## Topology
 ![Topology](images/topology.png)
 
 
@@ -49,20 +49,20 @@ Each router gets its own unique set of loopbacks and IP ranges.
 
 ---
 
-## 🔹 Terraform Execution
+## Terraform Execution
 ![Terraform Apply](images/terraform.png)
 
 ---
 
-## 🔹 Device Configuration Results
+## Device Configuration Results
 
-### 🔸 R1 Loopbacks
+### R1 Loopbacks
 ![R1 Loopbacks](images/r1-loopbacks.png)
 
-### 🔸 R2 Loopbacks
+### R2 Loopbacks
 ![R2 Loopbacks](images/r2-loopbacks.png)
 
-### 🔸 R3 Loopbacks
+### R3 Loopbacks
 ![R3 Loopbacks](images/r3-loopbacks.png)
 
 ---
@@ -95,12 +95,15 @@ terraform apply
 
 ---
 
-## 🔹 Notes
-> All IP addressing and credentials in this project are part of a simulated lab environment.
+## Notes
+
+- All credentials and IPs shown are from a lab environment
+- No production systems are exposed
+- Sensitive files are excluded using .gitignore
 
 ---
 
-## 🔹 Business Value
+## Business Value
 This project reflects real-world network automation practices by:
 
 - Reducing manual configuration effort and human error
