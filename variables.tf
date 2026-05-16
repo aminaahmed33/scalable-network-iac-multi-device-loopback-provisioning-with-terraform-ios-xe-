@@ -1,0 +1,4 @@
+variable "password" {
+    sensitive = true
+  
+}
