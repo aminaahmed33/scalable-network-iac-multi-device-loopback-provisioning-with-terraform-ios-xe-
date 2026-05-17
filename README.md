@@ -122,4 +122,5 @@ This project reflects real-world network automation practices by:
 ---
 
 ## Author
-Amina Ahmed
+**Amina Ahmed**
+Packet Core & IP Network Engineer | Network Automation Enthusiast
