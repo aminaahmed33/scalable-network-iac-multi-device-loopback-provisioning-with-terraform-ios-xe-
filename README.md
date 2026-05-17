@@ -67,7 +67,7 @@ Each router gets its own unique set of loopbacks and IP ranges.
 
 ---
 
-## 🔹 Prerequisites
+## Prerequisites
 - Terraform installed
 - Cisco IOS XE devices with RESTCONF enabled
 - Network connectivity to devices
